@@ -1,0 +1,5 @@
+learn
+--------
+1. simple basic math formuls manipulation
+2. bitwise operators can come handy
+3. counting by complement 

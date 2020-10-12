@@ -1,0 +1,37 @@
+solve these later:
+-----------------
+cf770 - mods
+uva 10110 - not enough math knowldge
+uva 10106 - big integer/tried the solution / (s[i] - '0');
+uva 408 - step / mode - could not solve
+uva 11231 - impl/cs - easy comeback
+uva 12148 - heavy impleantation with cleanreder/ probly math 
+spj ezmath - inclusion/exclusin - easy pb / hard ans
+
+leaned keep:
+-memset - memset(where to store, what to copy, how many times copy);
+
+
+gloabal 11 and educational 96 contests must know
+
+
+
+
+
+
+lessons
+
+-adjacency list -code
+-adjacency mattrix -code
+-edge list representation
+
+-DFS - code
+-DAG, in/outdegree
+-topoligcal sort with dfs
+-adhock method for topological sort
+-connected comonents
+-edge classification
+-detecting cycles
+-flood fill
+
+-bipartitie graph/bigraph
