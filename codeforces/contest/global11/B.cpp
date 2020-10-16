@@ -3,6 +3,31 @@ using namespace std;
 typedef long long ll;
 
 int main(){
+	ll t; cin >> t;
+	while(t--){
+		ll n, k; cin >> k >> n;
+		string a; cin >> a;
+		vector<int> v;
+		int cnt = 0;	
+		for(int i = 0; i < n; i++){
+			if(a[i] == 'L')
+				cnt++;
+			else
+				if(a[i-1] == 'L'){
+					v.push_back(cnt);	
+					cnt = 0;
+				}
+		}
+		for(int x: v)
+			cout << v[x] << " test: ";
+	}
+	return 0;
+}
+
+
+
+/*
+int main(){
 	int t; cin >> t;
 	while(t--){
 		int n, k; cin >> n >> k;
@@ -38,3 +63,4 @@ int main(){
 
 	return 0;
 }
+*/

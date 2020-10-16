@@ -1,6 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 int n = -1, m = -1, c = -1, ans = 0;
+
+int main(){
+	while(cin >> n >> m >> c){
+		if(n + m + c == 0)
+			break;
+		if(c == 0)
+			cout << (n - 7) * (m - 7)/2;
+		else
+			cout << ((n - 7) * (m - 7) + 1) / 2;
+	}
+
+	return 0;
+}
+
+
+/*
 int main(){
 	
 	while(cin >> n >> m >> c){
@@ -22,3 +38,4 @@ int main(){
 
 	return 0;
 }
+*/

@@ -2,15 +2,15 @@
 using namespace std;
 
 int s, m;
-int stp(m){
-	if (m == 0)
-		return 0;
-	else
-		stp(
+int gcd(int s, int m){
+	if(m == 0)
+		return s;
+	return gcd(m, s % m);
+}
 int main(){
-	while(cin >> s){
-		cin >> m;
-		stp(m);
+	while(cin >> s >> m){
+		string j = gcd(s, m) == 1 ? "Good Choice" : "Bad Choice";
+		cout << s << " " << m << " " << j << endl;
 	}
 
 
