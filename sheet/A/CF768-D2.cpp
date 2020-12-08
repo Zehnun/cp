@@ -3,6 +3,24 @@ using namespace std;
 typedef long long ll;
 
 int main(){
+	ll n; cin >> n;
+	vector<ll> v(n);
+	for(int i = 0; i < n; i++)
+		cin >> v[i];
+	sort(v.begin(), v.end());
+	ll cnt = 0;
+	for(int i = 0; i < v.size(); i++){
+		if(v[i] != v[0] && v[i] != v.back())
+			cnt++;
+	}
+	cout << cnt << endl;
+
+	return 0;
+}
+
+
+/*
+int main(){
 	int t; cin >>t;
 	vector<ll> n(t);
 	for(int i = 0; i<t; i++){
@@ -43,4 +61,4 @@ int main(){
 	return 0;
 }
 
-
+*/

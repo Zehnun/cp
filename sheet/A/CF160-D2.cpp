@@ -2,6 +2,19 @@
 using namespace std;
 
 int main(){
+	int t; cin >> t;
+	vector<int> a(t);
+	for(int i = 0; i< t; i++)
+		cin >> a[i];
+	sort(v.begin(), v.end());	
+
+
+	return 0;
+}
+
+
+/*
+int main(){
 	int t; cin >>t;
 	vector<int> v(t);
 	int gs = 0, s1 = 0;
@@ -22,5 +35,5 @@ int main(){
 	cout << ans << endl;
 	return 0;
 }
-	
+*/	
 	
